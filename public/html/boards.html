@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="../styles/boards.css">
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <div class="brand">My Board</div>
+    <div class="add-item-wrapper">
+      <form action="" id="form" method="post" name="form">
+        <div class="add-item-row">
+          <input name="item" class="add-item-input" placeholder='Create a board Item. e.g. "Complete Javascript Assignment" and hit enter' required type="text" value=""/>
+        </div>
+        <div class="assign-row">
+          <input name="assign" class="add-assign-input" placeholder='Assign to' required type="text" value=""/>
+        </div>
+        <button type="submit" id="formButton">ADD</button>
+      </form>
+    </div>
+  </div>
+  <div class="page-content">
+    <div class="board-list-container">
+      <div class="list-header"><h3>Board Items</h3></div>
+      <hr/>
+      <div class="board-list">
+        <ul class="board-ul">
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="../scripts/boards.js"></script>
+</body>
+</html>
