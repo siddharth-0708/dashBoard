@@ -133,14 +133,17 @@ body {
   }
   .item-title {
     flex: 40%;
+    overflow: auto;
   }
   .user-title {
     flex: 25%;
     text-align: center;
+    overflow: auto;
   }
   .assigned-title {
     flex: 25%;
     text-align: center;
+    overflow: auto;
   }
   
   .item-actions {
